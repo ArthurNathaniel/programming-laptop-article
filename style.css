@@ -50,6 +50,7 @@ margin: 0 auto;
 .listing img{
     box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
+
 .price{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -58,6 +59,19 @@ margin: 0 auto;
     display: flex;
     justify-content: flex-start;
 align-items: center;
+}
+.price-one a{
+    background-color: #fec248;
+    padding: 15px 35px;
+    color: #f4f6f8;
+        border-radius: 999px;
+    text-decoration: none;
+    transition: all;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.price-one a:hover{
+    transform: scale(1.1);
+    border-radius:999px ;
 }
 /* .listing p{
     display: none;
@@ -90,4 +104,7 @@ align-items: center;
     .listing img{
         width: 100%;
     }
+   .price{
+    display: block;
+   }
 }
