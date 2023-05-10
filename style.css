@@ -14,7 +14,7 @@ header {
     display: grid;
     grid-template-columns: 30% 70%;
     background-color: #ffffff;
-    padding: 0 15%;
+    padding: 0 10%;
     padding-block: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
@@ -24,4 +24,26 @@ header {
 }
 .logo-context h4 {
     font-weight: 300;
+}
+.heading{
+    padding: 0 10%;
+    text-align: center;
+}
+.heading h1{
+    font-size: 45px;
+}
+.intro{
+    padding: 0 10%;
+}
+.heading-image{
+margin: 0 10%;
+padding-block: 10px;
+
+}
+.heading-image img{
+display: block;
+margin: 0 auto;
+}
+.listing{
+    padding: 0 10%;
 }
